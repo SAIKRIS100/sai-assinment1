@@ -1,0 +1,29 @@
+# write a program to print result of the given student.
+# pass or fail.
+sno=int(input('Enter student no:'))
+sname=input('Enter student name:')
+sgroup=input('Enter student group')
+s1=int(input('OS Marks:'))
+s2=int(input('java marks'))
+s3=int(input('python marks'))
+s4=int(input('ds marks'))
+s5=int(input('english marks'))
+s6=int(input('telugu marks'))
+if s1>=35 and s2>=35 and s3>=35 and s4>=35 and s5>=35 and s6>=35:
+    print('pass')
+ else:
+        print('fail')
+        
+        OUTPUT
+  enter student no:1
+  enter student name:sai
+  enter student group:bca
+  enter os marks: 59
+  enter java marks: 80
+  enter python marks: 72
+  enter ds marks:68
+  enter english marks:70
+  enter telugu marks:60
+   pass
+   * Process exited - Return Code: 0 *
+Press Enter to exit terminal
